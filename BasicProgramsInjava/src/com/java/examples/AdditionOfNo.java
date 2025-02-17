@@ -2,7 +2,7 @@ package com.java.examples;
 
 import java.util.Scanner;
 
-public class AdditionOfTwoNo {
+public class AdditionOfNo {
 	public static void main(String[] args) {
 		Scanner  sc = new Scanner(System.in) ;
 		int number1,number2,sum;
@@ -12,9 +12,5 @@ public class AdditionOfTwoNo {
 		number2 = sc.nextInt();
 		sum = number1+number2;
 		System.out.println("sum of two numbers is:" + sum);
-		
-		
-	
 	}
 }
-
